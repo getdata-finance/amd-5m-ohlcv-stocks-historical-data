@@ -1,10 +1,10 @@
 # AMD 5m OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-103_571_rows-blue)](https://getdata.finance/datasets/amd) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/amd)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-105_287_rows-blue)](https://getdata.finance/datasets/amd) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/amd)
 
 ### -> [**Download the full AMD dataset on getdata.finance**](https://getdata.finance/datasets/amd)
 
-**AMD 5m OHLCV us stocks historical data** — ultra high-quality 5m OHLCV for **AMD**. US equity cash and extended sessions — institutional-style OHLCV candles for US stocks. Clean `datetime, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
+**AMD 5m OHLCV stocks historical data** — ultra high-quality 5m OHLCV for **Advanced Micro Devices**. Clean `time, open, high, low, close, volume` CSV for backtesting, algorithmic trading and quantitative research.
 
 ## Table of contents
 
@@ -21,14 +21,13 @@
 
 ## Why this dataset?
 
-- **Ultra high-quality 5m OHLCV** for **AMD** (US stocks)
-- **US equity cash and extended sessions — institutional-style OHLCV candles for US stocks**
-- **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`5m`) · **9 timeframes** on [getdata.finance](https://getdata.finance/datasets/amd) · **103,571** `1m` rows in the full archive
+- **Ultra high-quality 5m OHLCV** for **Advanced Micro Devices** (US stocks)
+- **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
+- **Free evaluation sample** on GitHub (`5m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/amd) · **105,287** `5m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `5m` sample updated in sync
 
-> **Sample on GitHub** · `AMD_5m.csv` (9,740 rows, `2026-02-02` -> `2026-07-31`). **Full archive on [getdata.finance](https://getdata.finance/datasets/amd)** — **103,571** `1m` rows (~9.10 MB), **9 timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W), `2021-04-13` -> `2026-07-31`.
+> **Sample on GitHub** · `AMD_5m.csv` (11,088 rows, `2026-02-06` -> `2026-09-01`, 1.08 MB). **Full archive on [getdata.finance](https://getdata.finance/datasets/amd)** — **105,287** `5m` rows (full `1m`: 526,381), **11 timeframes**, `2021-04-13` -> `2026-09-01`.
 
 ## Download sample
 
@@ -44,22 +43,22 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 
 | | **Sample (this repo)** | **Full dataset ([getdata.finance](https://getdata.finance/datasets/amd))** |
 |---|--:|---|
-| Instrument | AMD · US stocks | AMD · US stocks |
-| Timeframes | `5m` (sample) | **9** — 1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W |
-| 1m rows | 9,740 | **103,571** |
-| Size | 0.94 MB | ~9.10 MB |
-| Period | `2026-02-02` -> `2026-07-31` | `2021-04-13` -> `2026-07-31` |
+| Instrument | Advanced Micro Devices · US stocks | Advanced Micro Devices · US stocks |
+| Timeframes | `5m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
+| 5m rows | 11,088 | **105,287** |
+| Size | 1.08 MB | full ZIP on [getdata.finance](https://getdata.finance/datasets/amd) |
+| Period | `2026-02-06` -> `2026-09-01` | `2021-04-13` -> `2026-09-01` |
 | File | `AMD_5m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/amd) |
 | Coverage report | — | [AMD coverage](https://getdata.finance/coverage/amd) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
 
 ## Timeframes on GetData
 
-This GitHub repository ships a **`5m` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/amd)**, each full asset archive is delivered as a ZIP with **9 gap-free OHLCV timeframes** (one CSV per timeframe):
+This GitHub repository ships a **`5m` evaluation sample** only. On **[getdata.finance](https://getdata.finance/datasets/amd)**, each full asset archive is delivered as a ZIP with **11 gap-free OHLCV timeframes** (one CSV per timeframe):
 
-**1m** · **3m** · **5m** · **15m** · **30m** · **1H** · **12H** · **3D** · **1W**
+**1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W**
 
-GitHub = `5m` sample · [getdata.finance](https://getdata.finance/datasets/amd) = all **9** timeframes above for the same instrument.
+GitHub = `5m` sample · [getdata.finance](https://getdata.finance/datasets/amd) = all **11** timeframes above for the same instrument.
 
 ## Weekly updates
 
@@ -74,29 +73,29 @@ First and latest rows from the GitHub sample **`AMD_5m.csv`**:
 
 **First rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-02-02T15:20:00+00:00 | 245.84 | 246.15 | 245.29 | 245.9 | 1080 |
-| 2026-02-02T15:25:00+00:00 | 245.9 | 246.18 | 244.48 | 244.55 | 1040 |
-| 2026-02-02T15:30:00+00:00 | 244.55 | 244.9 | 244.07 | 244.52 | 1151 |
-| 2026-02-02T15:35:00+00:00 | 244.52 | 245.43 | 243.85 | 245.42 | 830 |
-| 2026-02-02T15:40:00+00:00 | 245.42 | 245.42 | 244.35 | 244.47 | 932 |
+| 2026-02-06T20:00:00+00:00 | 202.55 | 202.98 | 202.29 | 202.82 | 582 |
+| 2026-02-06T20:05:00+00:00 | 202.82 | 203.36 | 202.78 | 203.19 | 431 |
+| 2026-02-06T20:10:00+00:00 | 203.19 | 203.27 | 202.98 | 203.2 | 467 |
+| 2026-02-06T20:15:00+00:00 | 203.2 | 203.64 | 203.18 | 203.35 | 576 |
+| 2026-02-06T20:20:00+00:00 | 203.35 | 204.06 | 203.34 | 203.88 | 661 |
 
 **Last rows**
 
-| datetime | open | high | low | close | volume |
+| time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-07-31T19:35:00+00:00 | 486.15 | 486.2 | 483.66 | 483.98 | 745 |
-| 2026-07-31T19:40:00+00:00 | 483.98 | 484.26 | 482.66 | 484.08 | 805 |
-| 2026-07-31T19:45:00+00:00 | 484.08 | 486.59 | 483.96 | 486.59 | 700 |
-| 2026-07-31T19:50:00+00:00 | 486.59 | 486.59 | 482.29 | 482.29 | 847 |
-| 2026-07-31T19:55:00+00:00 | 482.29 | 482.29 | 475.73 | 476.49 | 1770 |
+| 2026-09-01T19:35:00+00:00 | 459.28 | 459.93 | 458.83 | 458.87 | 329 |
+| 2026-09-01T19:40:00+00:00 | 458.87 | 459.59 | 458.45 | 459.52 | 387 |
+| 2026-09-01T19:45:00+00:00 | 459.52 | 460.29 | 458.77 | 459.76 | 440 |
+| 2026-09-01T19:50:00+00:00 | 459.76 | 459.76 | 457.18 | 457.65 | 671 |
+| 2026-09-01T19:55:00+00:00 | 457.65 | 459.91 | 457.65 | 459.56 | 1225 |
 
 ## Schema
 
 | Column | Description |
 | --- | --- |
-| `datetime` | Bar open timestamp (UTC, ISO-8601). |
+| `time` | Bar open timestamp (UTC, ISO-8601). |
 | `open` | Opening price of the candlestick bar. |
 | `high` | Highest price during the bar. |
 | `low` | Lowest price during the bar. |
@@ -104,7 +103,7 @@ First and latest rows from the GitHub sample **`AMD_5m.csv`**:
 | `volume` | Tick volume (number of price updates) during the bar. |
 
 ```text
-datetime,open,high,low,close,volume
+time,open,high,low,close,volume
 ```
 
 ## Code examples
@@ -114,11 +113,9 @@ datetime,open,high,low,close,volume
 ```python
 import pandas as pd
 
-df = pd.read_csv('AMD_5m.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('AMD_5m.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 print(df.describe())
-print(df.resample('1h').agg({'open': 'first', 'high': 'max',
-                              'low': 'min', 'close': 'last', 'volume': 'sum'}).head())
 ```
 
 ### backtrader
@@ -127,8 +124,8 @@ print(df.resample('1h').agg({'open': 'first', 'high': 'max',
 import backtrader as bt
 import pandas as pd
 
-df = pd.read_csv('AMD_5m.csv', parse_dates=['datetime'])
-df.set_index('datetime', inplace=True)
+df = pd.read_csv('AMD_5m.csv', parse_dates=['time'])
+df.set_index('time', inplace=True)
 
 class PandasData(bt.feeds.PandasData):
     params = (('datetime', None), ('open', 'open'), ('high', 'high'),
@@ -146,20 +143,20 @@ cerebro.adddata(PandasData(dataname=df))
 import pandas as pd
 import vectorbt as vbt
 
-df = pd.read_csv('AMD_5m.csv', parse_dates=['datetime'])
-close = df.set_index('datetime')['close']
+df = pd.read_csv('AMD_5m.csv', parse_dates=['time'])
+close = df.set_index('time')['close']
 fast, slow = vbt.MA.run(close, 10), vbt.MA.run(close, 50)
 entries = fast.ma_crossed_above(slow)
 exits = fast.ma_crossed_below(slow)
-pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='1min')
+pf = vbt.Portfolio.from_signals(close, entries, exits, init_cash=10_000, freq='5min')
 print(pf.stats())
 ```
 
 ## Download full data
 
-The complete **AMD** archive on **[getdata.finance](https://getdata.finance/datasets/amd)** includes **9 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 12H · 3D · 1W) — **103,571** rows at `1m`, plus all other timeframes in the same ZIP.
+The complete **AMD** archive on **[getdata.finance](https://getdata.finance/datasets/amd)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **105,287** rows at `5m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full AMD dataset on getdata.finance](https://getdata.finance/datasets/amd)**
 
 ---
-*GetData · AMD 5m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/amd) · 2026-08-04 UTC*
+*GetData · AMD 5m OHLCV sample on GitHub · Full historical data on [getdata.finance](https://getdata.finance/datasets/amd)*
